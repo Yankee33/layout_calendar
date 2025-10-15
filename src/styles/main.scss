@@ -39,13 +39,12 @@ $start-days: (
   border: $cell-border solid black;
   box-sizing: border-box;
   background-color: #eee;
-
+  transition-duration: 500ms;
   cursor: pointer;
 }
 
 .calendar__day:hover {
   transform: translate(0, -20px);
-  transition-duration: 500ms;
   background-color: #ffbfcb;
 }
 
